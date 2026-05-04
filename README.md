@@ -1,6 +1,6 @@
-============================================================
+=
 VoltageCheck: Перевірка напруги
-============================================================
+=
 An operational amplifier requires a supply voltage of 15V.
 The program checks an entered voltage value.
 The value must be between 14.9 V and 15.1 V.
