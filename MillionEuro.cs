@@ -77,26 +77,6 @@ class Aufgabe3_MillionEuro
         Console.WriteLine($"{"Рік/Year",-10} {"Відсотки/Interest",-22} {"Після відсотків/After interest",-32} {"Залишок/Balance",-20}");
         Console.WriteLine("─────────────────────────────────────────────────────────");
 
-        // STRUKTOGRAMM (Struktogram):
-        // ┌──────────────────────────────────────────────────────────────────┐
-        // │ kapital = 1000000, jahre = 0                                     │
-        // │ Ввести zinssatz та gehalt / Enter zinssatz and gehalt            │
-        // ├──────────────────────────────────────────────────────────────────┤
-        // │ WHILE kapital > 0 AND jahre < 100                                │
-        // │ ┌────────────────────────────────────────────────────────────┐   │
-        // │ │ jahre = jahre + 1                                          │   │
-        // │ │ zinsen = kapital * zinssatz / 100                          │   │
-        // │ │ kapital = kapital + zinsen                                 │   │
-        // │ │ kapital = kapital - gehalt                                 │   │
-        // │ │ Вивести рік, відсотки, залишок                             │   │
-        // │ │ Print year, interest, balance                              │   │
-        // │ │ IF kapital <= 0: вивести "Кошти вичерпано"                 │   │
-        // │ │ IF kapital <= 0: print "Funds exhausted"                  │   │
-        // │ └────────────────────────────────────────────────────────────┘   │
-        // │ Вивести кількість років / Print number of years                  │
-        // │ IF jahre == 100: вивести попередження / print warning            │
-        // └──────────────────────────────────────────────────────────────────┘
-
         // Цикл while: виконується поки капітал більший за 0 І не досягнуто 100 років
         // While loop: runs while capital is greater than 0 AND 100 years have not been reached
         while (kapital > 0 && jahre < MAX_JAHRE)
