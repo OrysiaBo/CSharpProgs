@@ -24,5 +24,22 @@ UA:
 Програма додає введені цілі числа доти, доки сума не перевищить 100.
 Виводиться кількість доданих чисел.
 
+=
+MillionEuro:
+=
+EN: 
+You won 1,000,000 euros in the lottery.
+The money is deposited in a savings account with annual interest.
+Each year you withdraw a "salary".
+The program calculates how many years the winnings will last.
+The loop is forcibly stopped after 100 years (protection against infinite loop).
+
+UA:
+Ви виграли 1 000 000 євро в лотерею.
+Гроші вкладено на ощадну книжку з річними відсотками.
+Щороку ви знімаєте "зарплату".
+Програма підраховує, скільки років вистачить виграшу.
+Цикл примусово зупиняється після 100 років (захист від нескінченного циклу).
+
 
 
