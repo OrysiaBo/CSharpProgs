@@ -19,34 +19,6 @@ class Aufgabe1_Spannungspruefung
         Console.WriteLine("=== Voltage Check for Operational Amplifier ===");
         Console.WriteLine();
 
-        // Цикл while виконується доти, доки введена напруга знаходиться
-        // за межами допустимого діапазону [14.9 В; 15.1 В]
-        //
-        // The while loop runs as long as the entered voltage is
-        // outside the valid range [14.9 V; 15.1 V]
-        //
-        // STRUKTOGRAMM (Struktogram):
-        // ┌────────────────────────────────────────────────────┐
-        // │ spannung = 0 (Ініціалізація / Initialization)      │
-        // ├────────────────────────────────────────────────────┤
-        // │ WHILE spannung < 14.9 OR spannung > 15.1           │
-        // │ ┌──────────────────────────────────────────────┐   │
-        // │ │ Вивести запит на введення напруги            │   │
-        // │ │ Print prompt for voltage input               │   │
-        // │ │ Зчитати spannung з клавіатури                │   │
-        // │ │ Read spannung from keyboard                  │   │
-        // │ │ IF spannung < 14.9 OR spannung > 15.1:       │   │
-        // │ │   Вивести повідомлення про помилку           │   │
-        // │ │   Print error message                        │   │
-        // │ └──────────────────────────────────────────────┘   │
-        // │ Вивести "Напруга у допустимому діапазоні!"          │
-        // │ Print "Voltage within valid range!"                 │
-        // └────────────────────────────────────────────────────┘
-
-        // Початкова ініціалізація: задаємо значення поза допустимим діапазоном,
-        // щоб цикл while розпочався з першої ітерації
-        // Initial initialization: set value outside valid range so
-        // the while loop starts from the first iteration
         spannung = 0;
 
         // Умова продовження циклу: поки напруга НЕ знаходиться в допустимому діапазоні
