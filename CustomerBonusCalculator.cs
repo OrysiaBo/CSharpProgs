@@ -1,12 +1,12 @@
 using System;
 
 // EN: Aufgabe 3 – Customer bonus calculator
-//     A company grants a 5 % bonus if the customer's annual net turnover exceeds 70 000 €.
-//     Otherwise a message is printed that no bonus is granted.
+// A company grants a 5 % bonus if the customer's annual net turnover exceeds 70 000 €.
+// Otherwise a message is printed that no bonus is granted.
 //
 // UA: Завдання 3 – Калькулятор бонусу клієнта
-//     Компанія нараховує 5% бонус, якщо річний нетто-оборот клієнта перевищує 70 000 €.
-//     Інакше виводиться повідомлення про відсутність бонусу.
+// Компанія нараховує 5% бонус, якщо річний нетто-оборот клієнта перевищує 70 000 €.
+// Інакше виводиться повідомлення про відсутність бонусу.
 
 namespace Aufgabe03_Bonusberechnung
 {
