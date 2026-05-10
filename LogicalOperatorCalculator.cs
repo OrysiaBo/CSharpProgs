@@ -1,14 +1,14 @@
 using System;
 
 // EN: Aufgabe 6 – Logical operator calculator
-//     The user selects a logical operation (OR / AND / NAND / XOR) and
-//     enters two binary values (x, y ∈ {0, 1}).
-//     The program outputs the result as 0 or 1.
+// The user selects a logical operation (OR / AND / NAND / XOR) and
+// enters two binary values (x, y ∈ {0, 1}).
+// The program outputs the result as 0 or 1.
 //
 // UA: Завдання 6 – Калькулятор логічних операторів
-//     Користувач обирає логічну операцію (OR / AND / NAND / XOR) і
-//     вводить два бінарних значення (x, y ∈ {0, 1}).
-//     Програма виводить результат як 0 або 1.
+// Користувач обирає логічну операцію (OR / AND / NAND / XOR) і
+// вводить два бінарних значення (x, y ∈ {0, 1}).
+// Програма виводить результат як 0 або 1.
 
 namespace Aufgabe06_LogikOperatoren
 {
