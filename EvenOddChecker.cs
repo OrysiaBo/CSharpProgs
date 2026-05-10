@@ -1,14 +1,14 @@
 using System;
 
 // EN: Aufgabe 7 – Even / odd checker
-//     The user enters a positive integer.
-//     The program uses the modulo operator (%) to determine
-//     whether the number is even or odd.
+// The user enters a positive integer.
+// The program uses the modulo operator (%) to determine
+// whether the number is even or odd.
 //
 // UA: Завдання 7 – Перевірка парного / непарного числа
-//     Користувач вводить позитивне ціле число.
-//     Програма використовує оператор остачі (%) для визначення,
-//     чи є число парним або непарним.
+// Користувач вводить позитивне ціле число.
+// Програма використовує оператор остачі (%) для визначення,
+// чи є число парним або непарним.
 
 namespace Aufgabe07_GeradePruefung
 {
