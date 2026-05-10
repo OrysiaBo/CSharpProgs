@@ -1,18 +1,16 @@
 using System;
 
 // EN: Aufgabe 9 – Leap year checker
-//     A year is a leap year when:
-//       (divisible by 4  AND  NOT divisible by 100)
-//       OR
-//       (divisible by 4  AND  divisible by 100  AND  divisible by 400)
-//     Simplified rule: (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)
+// A year is a leap year when:
+//(divisible by 4  AND  NOT divisible by 100) OR
+//(divisible by 4  AND  divisible by 100  AND  divisible by 400)
+// Simplified rule: (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)
 //
 // UA: Завдання 9 – Перевірка високосного року
-//     Рік є високосним, якщо:
-//       (ділиться на 4  І  НЕ ділиться на 100)
-//       АБО
-//       (ділиться на 4  І  ділиться на 100  І  ділиться на 400)
-//     Спрощене правило: (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)
+// Рік є високосним, якщо:
+// (ділиться на 4  І  НЕ ділиться на 100)
+// (ділиться на 4  І  ділиться на 100  І  ділиться на 400)
+// Спрощене правило: (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)
 
 namespace Aufgabe09_Schaltjahrpruefung
 {
