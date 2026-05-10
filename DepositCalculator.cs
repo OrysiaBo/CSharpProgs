@@ -1,14 +1,14 @@
 using System;
 
 // EN: Aufgabe 4 – Fixed-deposit interest calculator
-//     A bank applies tiered interest rates depending on the deposit amount:
+// A bank applies tiered interest rates depending on the deposit amount:
 //       up to  5 000 € → 2.00 %
 //       up to 10 000 € → 2.25 %
 //       up to 50 000 € → 2.50 %
 //       over 50 000 € → 2.75 %
 //
 // UA: Завдання 4 – Калькулятор відсотків по депозиту
-//     Банк застосовує ступінчасті відсоткові ставки залежно від суми вкладу:
+// Банк застосовує ступінчасті відсоткові ставки залежно від суми вкладу:
 //       до  5 000 €  → 2,00 %
 //       до 10 000 €  → 2,25 %
 //       до 50 000 €  → 2,50 %
