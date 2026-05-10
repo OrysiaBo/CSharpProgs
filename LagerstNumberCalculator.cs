@@ -1,10 +1,10 @@
 using System;
 
 // EN: Aufgabe 8 – Find the largest of four numbers.
-//     The user enters four numbers; the program prints the maximum value.
+// The user enters four numbers; the program prints the maximum value.
 //
 // UA: Завдання 8 – Знайти найбільше з чотирьох чисел.
-//     Користувач вводить чотири числа; програма виводить максимальне значення.
+// Користувач вводить чотири числа; програма виводить максимальне значення.
 
 namespace Aufgabe08_MaximumVierZahlen
 {
@@ -29,9 +29,9 @@ namespace Aufgabe08_MaximumVierZahlen
             double zahl4 = Convert.ToDouble(Console.ReadLine());
 
             // EN: Start by assuming the first number is the maximum,
-            //     then update whenever a larger value is found.
+            // then update whenever a larger value is found.
             // UA: Починаємо з припущення, що перше число є максимумом,
-            //     потім оновлюємо, коли знаходимо більше значення.
+            // потім оновлюємо, коли знаходимо більше значення.
             double maximum = zahl1;
 
             if (zahl2 > maximum)
