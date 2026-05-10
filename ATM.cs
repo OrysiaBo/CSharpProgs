@@ -1,16 +1,15 @@
 using System;
 
 // EN: Aufgabe 10 – ATM simulator
-//     The user picks a preset amount (100 €, 200 €, 500 €) or enters
-//     a custom amount between 10 € and 1 000 € (multiples of 10, since
-//     the smallest available banknote is 10 €).
-//     Invalid inputs produce an appropriate error message.
-//
+// The user picks a preset amount (100 €, 200 €, 500 €) or enters
+// a custom amount between 10 € and 1 000 € (multiples of 10, since
+// the smallest available banknote is 10 €).
+// Invalid inputs produce an appropriate error message.
 // UA: Завдання 10 – Симулятор банкомату
-//     Користувач обирає фіксовану суму (100 €, 200 €, 500 €) або вводить
-//     довільну суму від 10 € до 1 000 € (кратну 10, оскільки
-//     найменша купюра – 10 €).
-//     Невірні введення призводять до відповідного повідомлення про помилку.
+// Користувач обирає фіксовану суму (100 €, 200 €, 500 €) або вводить
+// довільну суму від 10 € до 1 000 € (кратну 10, оскільки
+// найменша купюра – 10 €).
+// Невірні введення призводять до відповідного повідомлення про помилку.
 
 namespace Aufgabe10_Bankautomat
 {
@@ -64,9 +63,9 @@ namespace Aufgabe10_Bankautomat
 
                 case 4:
                     // EN: Custom amount: must be between 10 € and 1 000 €
-                    //     and divisible by 10 (smallest banknote is 10 €).
+                    // and divisible by 10 (smallest banknote is 10 €).
                     // UA: Довільна сума: має бути від 10 € до 1 000 €
-                    //     і кратна 10 (найменша купюра – 10 €).
+                    // і кратна 10 (найменша купюра – 10 €).
                     Console.WriteLine("Geben Sie einen Betrag zwischen 10,- und 1000,- Euro ein!\n");
                     Console.Write("Betrag: ");
                     betrag = Convert.ToDouble(Console.ReadLine());
